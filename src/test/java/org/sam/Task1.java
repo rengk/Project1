@@ -35,7 +35,7 @@ public class Task1 {
 			String text = e.getText().replace(",", "");
 			l.add(text);
 		}
-		
+		System.out.println("iphone prices");
 		for (String price : l) {
 			System.out.println(price);
 		}
